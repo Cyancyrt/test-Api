@@ -1,0 +1,10 @@
+POST http://localhost:5000/booking
+Content-Type: application/json
+
+{
+    "userId" : "1",
+    "dokterId" : "2",
+    "waktu" : "1 jam",
+    "biaya" : 50000,
+    "history" : false
+}

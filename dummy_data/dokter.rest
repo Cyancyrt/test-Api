@@ -1,0 +1,52 @@
+POST http://localhost:5000/dokter
+Content-Type: application/json
+
+{
+    "name" : "Dr. Amanda Santoso, Sp.A",
+    "email" : "amanda.santoso@dokteranak.id",
+    "roles" : "Spesialis Anak",
+    "lokasi" : "Bogor Tengah,Bogor,Jawa Barat",
+    "jamTerbang" : "8 - 10",
+    "rumahSakitId" : 1,
+    "biaya" : 50000,
+    "nomor_telepon" : "081234567890",
+    "rating" : 4,
+    "kategori" : "kesehatan jiwa anak"
+}
+
+###
+POST http://localhost:5000/dokter
+Content-Type: application/json
+
+{
+    "name" : "Dr. Budi Cahyono, Sp.KJ",
+    "email" : "budi.cahyono@dokterjiwaanak.com",
+    "roles" : "Spesialis Kedokteran Jiwa Anak",
+    "lokasi" : "Ilir Timur I,Palembang,Sumatera Selatan",
+    "rumahSakitId" : 1,
+    "biaya" : 150000,
+    "jamTerbang" : "9 - 12",
+    "nomor_telepon" : "087712345678",
+    "rating" : 4,
+    "kategori" : "kesehatan jiwa anak"
+}
+
+###
+POST http://localhost:5000/dokter
+Content-Type: application/json
+
+{
+    "name" : "Dr. Cindy Wijaya, Sp.THT-KL",
+    "email" : "cindy.wijaya@doktertelinga.id",
+    "roles" : "Spesialis Telinga Hidung Tenggorokan Anak",
+    "lokasi" : "Gondokusuman,Yogyakarta,DI Yogyakarta",
+    "biaya" : 55000,
+    "rumahSakitId" : 2,
+    "jamTerbang" : "15 - 19",
+    "nomor_telepon" : "085698765432",
+    "rating" : 5,
+    "kategori" : "kesehatan badan anak"
+}
+
+###
+GET http://localhost:5000/dokter

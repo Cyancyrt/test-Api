@@ -1,0 +1,31 @@
+POST http://localhost:5000/obat
+Content-Type: application/json
+
+{
+    "jenis_obat" : "Asetaminofen",
+    "nama_obat" : "Tylenol",
+    "deskripsi" : " obat analgesik dan antipiretik yang sering digunakan untuk mengurangi rasa sakit dan menurunkan demam.Digunakan untuk mengobati demam dan nyeri ringan pada bayi dan anak-anak. Namun, seperti halnya dengan semua obat, penggunaan acetaminophen pada bayi harus dilakukan dengan hati-hati dan sesuai dengan petunjuk dosis yang tepat. Efek Samping: Meskipun relatif aman jika digunakan sesuai petunjuk dosis, acetaminophen masih memiliki potensi untuk menyebabkan efek samping, termasuk reaksi alergi, mual, muntah, atau bahkan kerusakan hati dalam kasus overdosis.",
+    "saran" : "Jangan berikan kepada bayi berusia kurang dari 3 bulan kecuali disarankan oleh dokter anak Anda. Asetaminofen dapat diberikan setiap 4-6 jam sesuai kebutuhan; jangan melebihi 5 kali dalam periode 24 jam. Temukan berat badan bayi Anda pada tabel botol di bawah ini untuk dosis yang tepat."
+}
+
+###
+POST http://localhost:5000/obat
+Content-Type: application/json
+
+{
+    "jenis_obat" : "Ibuprofen",
+    "nama_obat" : "Advil",
+    "deskripsi" : "obat antiinflamasi nonsteroid (NSAID) yang sering digunakan untuk mengurangi rasa sakit, peradangan, dan demam. Merek dagang yang umum dari ibuprofen termasuk Advil dan Motrin. Namun, penggunaan ibuprofen pada bayi (di bawah usia 6 bulan) harus dilakukan dengan sangat hati-hati dan hanya atas petunjuk dokter. Berikut adalah deskripsi singkat tentang ibuprofen,Penggunaan ibuprofen pada bayi harus dilakukan dengan sangat hati-hati dan hanya atas petunjuk dokter. Penggunaan ibuprofen pada bayi yang terlalu muda dapat meningkatkan risiko efek samping serius, termasuk masalah pencernaan, kerusakan ginjal, dan masalah pernapasan.",
+    "saran" : "Jangan berikan kepada bayi berusia kurang dari 6 bulan kecuali diinstruksikan sebaliknya oleh dokter anak Anda. Ibuprofen dapat diberikan setiap 6-8 jam sesuai kebutuhan; jangan melebihi 4 kali dalam periode 24 jam. Temukan berat badan bayi Anda pada tabel di bawah ini untuk dosis yang tepat."
+}
+
+###
+POST http://localhost:5000/obat
+Content-Type: application/json
+
+{
+    "jenis_obat" : "Solusi Rehidrasi Oral",
+    "nama_obat" :  "Pedialyte",
+    "deskripsi" : "cairan yang dirancang khusus untuk menggantikan cairan dan elektrolit yang hilang dari tubuh saat bayi atau anak-anak mengalami dehidrasi. Ini adalah solusi penting untuk mengatasi dehidrasi, terutama pada bayi dan anak-anak yang rentan terhadap kehilangan cairan karena muntah atau diare. Solusi rehidrasi oral umumnya mengandung campuran air, gula (glukosa), dan elektrolit penting seperti natrium, kalium, dan klorida. Beberapa produk juga dapat mengandung zat tambahan seperti zinc atau prebiotik untuk membantu mempercepat pemulihan",
+    "saran" : "Berikan 5 ml (1 sendok teh) larutan rehidrasi setiap 1-2 menit jika bayi Anda menunjukkan tanda-tanda dehidrasi. Selain itu, tawarkan solusinya setelah setiap buang air besar atau episode muntah. Jika Anda sedang menyusui, teruskan melakukannya. Larutan elektrolit ini juga tersedia dalam bentuk es loli untuk balita atau anak yang lebih besar, yang mungkin lebih menarik bagi mereka."
+}

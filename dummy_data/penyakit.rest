@@ -1,0 +1,28 @@
+POST http://localhost:5000/penyakit
+Content-Type: application/json
+
+{
+    "nama_penyakit" : "Batuk dan Pilek",
+    "obatId" : "3a00225d-2d6f-4368-abaf-86ad625eace6",
+    "deskripsi" : "Batuk dan pilek adalah masalah pernapasan yang sering terjadi pada bayi dan balita. Ini biasanya disebabkan oleh infeksi virus, seperti virus flu atau virus pernapasan syncytial (RSV). Gejalanya termasuk hidung tersumbat, pilek, batuk, dan kadang-kadang demam ringan. Pada bayi yang lebih kecil, masalah pernapasan seperti ini dapat menyebabkan kesulitan makan dan tidur. Dianjurkan untuk memberikan cukup cairan dan menjaga kebersihan hidung bayi dengan menyedot lendir yang berlebihan dengan penghisap lendir bayi. Jika gejala semakin parah atau berlangsung lebih lama dari biasanya, segera konsultasikan dengan dokter"
+}
+
+###
+POST http://localhost:5000/penyakit
+Content-Type: application/json
+
+{
+    "nama_penyakit" : "Ruam Popok (Diaper Rash)",
+    "obatId" : "c50a4efa-989b-45e9-941c-aa17183232fd",
+    "deskripsi" : "kondisi kulit yang umum terjadi pada bayi yang menggunakan popok. Ini terjadi ketika kulit di area popok menjadi iritasi atau meradang, sering disebabkan oleh kombinasi faktor seperti kelembaban, gesekan, dan paparan terhadap kotoran atau urine.Gejala ruam popok bisa bervariasi dari ringan hingga parah. Gejala umumnya meliputi kemerahan, peradangan, kulit yang terasa panas atau gatal, dan mungkin timbulnya bintik-bintik merah atau lepuh di area popok"
+}
+
+###
+POST http://localhost:5000/penyakit
+Content-Type: application/json
+
+{
+    "nama_penyakit" : "Malaria",
+    "obatId" : "3a00225d-2d6f-4368-abaf-86ad625eace6",
+    "deskripsi" : "penyakit menular yang disebabkan oleh parasit dari genus Plasmodium yang ditularkan melalui gigitan nyamuk Anopheles yang terinfeksi. Ini adalah salah satu penyakit menular yang paling mematikan di dunia, terutama di daerah tropis dan subtropis.Gejala malaria bisa bervariasi tergantung pada jenis Plasmodium yang menyebabkan infeksi, tetapi gejala umumnya termasuk demam tinggi, menggigil, nyeri otot, sakit kepala, mual, muntah, dan kelelahan. Pada kasus yang parah, malaria dapat menyebabkan komplikasi serius, seperti anemia, gangguan pernapasan, gagal ginjal, dan bahkan kematian"
+}

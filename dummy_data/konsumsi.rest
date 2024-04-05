@@ -1,0 +1,37 @@
+POST http://localhost:5000/konsumsi
+Content-Type: application/json
+
+{
+    "nama_konsumsi": "Enfamil A+ 1400 g",
+    "tipe_konsumsi": "susu",
+    "deskripsi" : "bayi berusia 0-6 bulan. Susu ini mengandung DHA 17 mg/100kkal dan ARA 34mg/100kkal yang telah teruji klinis untuk mendukung perkembangan otak si kecil. Selain itu, produk ini juga mengandung Prebiotik GOS untuk kesehatan pencernaan Si Kecil.Rentang harga Rp198.700 – Rp260.600 per box"
+}
+###
+POST http://localhost:5000/konsumsi
+Content-Type: application/json
+
+{
+    "nama_konsumsi" : "Pediasure Tripelsure Vanila 400 g",
+    "tipe_konsumsi" : "susu",
+    "deskripsi" : "untuk anak usia 1 – 10 tahun yang susah makan.protein, lemak, sejumlah mineral penting seperti mangan.Produk susu ini juga mengandung vitamin penting seperti vitamin A, D3, E, vit B2, vit B6, vit B12, niacin dan asam folat. Rentang harga: Rp130.100 – Rp240.300 per box"
+}
+
+###
+POST http://localhost:5000/konsumsi
+Content-Type: application/json
+
+{
+    "nama_konsumsi" : "Gerber Lil' Mixers",
+    "tipe_konsumsi" : "yoghurt",
+    "deskripsi" : "Gerber Lil' Mixers adalah makanan bayi yang dirancang untuk memberikan variasi rasa dan tekstur dalam makanan bayi Anda. Produk ini terdiri dari campuran berbagai bahan makanan organik yang lembut dan mudah dicerna, seperti buah-buahan dan sayuran yang diolah dengan hati-hati untuk memenuhi kebutuhan gizi bayi Anda"
+}
+
+###
+POST http://localhost:5000/konsumsi
+Content-Type: application/json
+
+{
+    "nama_konsumsi" : "Stonyfield Organic YoBaby",
+    "tipe_konsumsi" : "yoghurt",
+    "deskripsi" : "Stonyfield Organic YoBaby merupakan yoghurt organik yang dirancang khusus untuk memberikan gizi yang baik bagi bayi dan balita. Produk ini terbuat dari bahan-bahan organik berkualitas tinggi, yang diproses secara hati-hati untuk memastikan kesegaran dan keamanannya.Yoghurt ini kaya akan kalsium dan protein, yang penting untuk pertumbuhan dan perkembangan tulang bayi."
+}

@@ -1,0 +1,7 @@
+POST http://localhost:5000/komentar
+Content-Type: application/json
+
+{
+    "userId" : "1",
+    "isi" : "sangat ramah, membantu"
+}

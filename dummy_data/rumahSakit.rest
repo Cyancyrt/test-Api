@@ -1,0 +1,37 @@
+POST http://localhost:5000/rumah-sakit
+Content-Type: application/json
+
+{
+    "name" : "RS KARYADIRI",
+    "email" : "karyadiri@example.com",
+    "lokasi" : "Kedungkandang,Malang,Jawa Timur",
+    "nomor_telepon" : "087912345678",
+    "rating" : 5,
+    "deskripsi" : "test loremipsum"
+}
+
+###
+POST http://localhost:5000/rumah-sakit
+Content-Type: application/json
+
+{
+    "name" : "RS GATOTBESI",
+    "email" : "gatotbs@example.com",
+    "lokasi" : "Kedungkandang,Malang,Jawa Timur",
+    "nomor_telepon" : "087712345678",
+    "rating" : 5,
+    "deskripsi" : "test loremipsum"
+}
+
+###
+POST http://localhost:5000/rumah-sakit
+Content-Type: application/json
+
+{
+    "name" : "RSUD persimpangan",
+    "email" : "simpang@example.com",
+    "lokasi" : "Kedungkandang,Malang,Jawa Timur",
+    "nomor_telepon" : "087712345678",
+    "rating" : 5,
+    "deskripsi" : "test loremipsum"
+}
